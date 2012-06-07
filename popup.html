@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DJ Youtube</title>
+    <style>
+      body {
+        min-width:325px;
+        overflow-x:hidden;
+      }
+    </style>
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="content_script.js" ></script>
+       <script src="popup.js"></script>
+
+
+  </head>
+  <body>
+    <center>
+    <input type="range" min="0" max="100" value="50"  id="slider1" />
+    </center>
+    <br />
+    <input type="range" min="0" max="100" value="100"  id="slider2" />
+    <span id="slider2val"></span>
+    <input type="range" min="0" max="100" value="100"  id="slider3" />
+    <span id="slider3val"></span>
+    <br />
+    <input type="button" value="Play/Pause1" id=play1 />
+    <input type="button" value="Play/Pause2" id=play2 />
+    <input type="button" value="Youtube Tab Names" id=button1 />
+
+  </body>
+</html>
